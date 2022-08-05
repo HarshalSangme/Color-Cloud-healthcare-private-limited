@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 85vh;
+    background-color: white;
+    height: 565px;
+    left: 0px;
+    top: 0px;
+    background: #F0ECF9;
+    border-radius: 0px 0px 300px 0px;
+}
+
+
+/* main con inside header */
+
+.main-curved-con {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240 236 249);
+    /* background-color: green; */
+    border-bottom-right-radius: 380px;
+}
+
+/* navbar */
+
+.navbar {
+    margin: 3rem 0 0 0;
+    background-color: rgb(240 236 249);
+    /* background-color: blue; */
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    z-index: 2;
+}
+
+.navbar-brand {
+    margin: 0 0 0 6rem;
+}
+
+.navbar-nav {
+    margin: 0 6rem 0 0;
+}
+
+.navbar-nav>li {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #848283;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+
+.slider-content-1 {
+    position: absolute;
+    width: 535px;
+    height: 162px;
+    left: 110px;
+    top: 208px;
+    /* background-color: aqua; */
+}
+
+.ciscom-head {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #164D92;
+}
+
+.ciscom-bracket {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #01B18E;
+    margin: 0 0 0 0;
+}
+
+.ciscom-para {
+    font-family: 'Montserrat';
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.5px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    margin: 3rem 0 0 0;
+}
+
+.slider-rect-1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 157px;
+    height: 32px;
+    left: 110px;
+    top: 426px;
+    background: #164D92;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.learn-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    margin: 2.3% auto auto auto;
+}
+
+/* Star 1 */
+
+.svg-slider-1-star-con {
+    position: absolute;
+    width: 656px;
+    height: 529px;
+    left: 664px;
+    top: 145px;
+    overflow: hidden;
+}
+
+
+/* Section 1 abt */
+
+.section-1-abt {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-bottom: 12rem;
+}
+
+.sec1-abt-heading {
+    padding: 6.5rem 0 0 0;
+    margin: 0 0 0 110px;
+    width: 171px;
+    height: 48px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #164D92;
+}
+
+.sec1-abt-para {
+    padding: 8rem 0 0 0;
+    margin: 0 0 7.5rem 110px;
+    width: 506px;
+    height: 110px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 135%;
+    display: flex;
+    align-items: center;
+    color: #7D7D7D;
+}
+
+
+.sec1-abt-knowmore-con {
+    margin: 0 0 0 110px;
+    width: 157px;
+    height: 40px;
+    left: 134px;
+    top: 921px;
+    background: #FFFFFF;
+    border: 2px solid #164D92;
+    border-radius: 50px;
+}
+
+.abt-know-more-btn {
+    margin: 5% auto auto auto;
+    width: 80px;
+    height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #164D92;
+}
+
+.rect-box-up {
+    margin: 3.5rem 0 0 0;
+    width: 539px;
+    height: 431px;
+    background: #D9D9D9;
+    position: absolute;
+    z-index: 0;
+}
+
+.rect-box-down {
+    position: absolute;
+    z-index: 2;
+    margin: 6.5rem auto auto 3.5rem;
+    width: 539px;
+    height: 431px;
+    background: #D9D9D9;
+}
+
+
+/* section 2 Number Statics */
+
+.section-2-main-con {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+}
+
+.num-statics {
+    height: 48px;
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #164D92;
+}
+
+.color-cloud-netw {
+    margin: 0 0 0 0;
+    height: 29px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #01B18E;
+}
+
+.list-of-boxes {
+    padding: 0 2.5rem 0 2.5rem;
+    background-color: #F0ECF9;
+}
+
+.network-info-box {
+    width: 300px;
+    height: 254px;
+    margin: 4rem auto 2rem auto;
+    background: #164D92;
+    text-align: center;
+    align-items: center;
+}
+
+.heading-net {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    margin: 5rem 0 0 0;
+}
+
+.network-no {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    margin: 6.5rem 0 0 0 0;
+}
+/* section 2 Number Statics END */
+
+/* Section 3 our global net */
+
+.our-global-net-con {
+    background-color: #01B18E;
+    text-align: center;
+    width:100%;
+}
+
+.rect-our-global-net {
+    width: auto;
+    height: 30px;
+    background: #FFFFFF;
+    border: 2px solid #01B18E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+.rect-our-global-net p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #164D92;
+    margin: 7px auto auto auto;
+}
+/* Section 3 our global net  END*/
+
+/* Section 4 managing director & CEO */
+
+.section-4-main-con {
+    /* background-color: rebeccapurple; */
+    background-color: #fff;
+    width: 100%;
+    height: 170vh;
+    margin-bottom: 15vh;
+    padding: 0 0 6rem 0;
+}
+
+.managing-director-left-content-con {
+    width: 83%;
+    height: 55vh;
+    /* background-color: green; */
+    background-color: #fff;
+    margin: 5rem auto auto 5.5rem;
+    padding: 6rem 0 3rem 0;
+}
+
+.managing-director-left-content-con .p1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    margin: 0 auto 2rem auto;
+    color: #01B18E;
+}
+
+
+
+.managing-director-left-content-con .p2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    float: right;
+    margin: 0 4rem 2rem 0;
+    color: #164D92;
+}
+
+
+
+.thin-line-con-manager {
+    position: absolute;
+    z-index: 0;
+    width: 569px;
+    height: 483px;
+    margin: 3.4rem 0 0 3rem;
+    background-color: #01B18E;
+    background-color: #fff;
+    border: 1.5px solid #000;
+}
+
+.managing-director-img-con {
+    position: absolute;
+    z-index: 2;
+    width: 569.29px;
+    height: 385.11px;
+    margin: 6rem 0 auto 0;
+    background: #C4C4C4;
+}
+
+
+/* part - 2 */
+
+.CEO-left-content-con {
+    width: 83%;
+    height: 55vh;
+    /* background-color: green; */
+    background-color: #fff;
+    margin: 7rem auto auto 5.5rem;
+    padding: 7.5rem 0 3rem 0;
+}
+
+.CEO-left-content-con .p1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    margin: 0 auto 2rem auto;
+    color: #01B18E;
+}
+
+.CEO-left-content-con .p2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    float: right;
+    margin: 0 4rem 2rem 0;
+    color: #164D92;
+}
+
+
+.thin-line-con-CEO {
+    position: absolute;
+    z-index: 0;
+    width: 569px;
+    height: 483px;
+    margin: 5.8rem 0 0 3rem;
+    /* background-color: orange; */
+    background-color: #fff;
+    border: 1.5px solid #000;
+}
+
+.CEO-img-con {
+    position: absolute;
+    z-index: 2;
+    width: 569.29px;
+    height: 385.11px;
+    margin: 8.7rem 0 auto 7.4rem;
+    background: #C4C4C4;
+}
