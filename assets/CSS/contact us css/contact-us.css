@@ -11,10 +11,11 @@
     height: auto;
     width: 100%;
     padding: 0 0 2rem 0;
+    margin: 6.5rem 0 0 0 ;
 }
 
 .contact-us-sec-1-img-con {
-    margin: 3rem 0 0 0;
+    margin: 5% -7.3rem 0 auto;
     width: 1027px;
     height: 521px;
     background-color: antiquewhite;
@@ -50,7 +51,7 @@
 /* section 2 contact us form  */
 
 .cont-form-add-con {
-    margin: 5rem 5rem 0 7rem;
+    margin: 5rem 5rem 0 4rem;
 }
 
 .cont-form-add-con .p1 {
@@ -106,7 +107,7 @@
 /* form */
 
 .cont-form-input-con {
-    margin: 5rem 4rem 0 8rem;
+    margin: 5rem -3rem 0 12rem;
 }
 
 .php-email-form {

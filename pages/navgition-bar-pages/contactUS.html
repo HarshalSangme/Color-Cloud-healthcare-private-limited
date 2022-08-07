@@ -25,8 +25,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container">
 
             <a class="navbar-brand" href="#">
                 <img src="../../assets/Images/logo/color-cloud-logo.png" alt="" width="90" height="90"
@@ -98,11 +98,13 @@
     <!-- section 1 contact us -->
 
     <section class="section-1-main-con-contact-us">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="contact-us-sec-1-img-con">
-                    <div class="we-would-text-top">
-                        <p> We would love to hear from you </p>
+        <div class="container justify-content-center">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contact-us-sec-1-img-con">
+                        <div class="we-would-text-top">
+                            <p> We would love to hear from you </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -113,90 +115,107 @@
 
     <!-- section 2 contact us FORM -->
     <section>
-        <div class="row">
-            <div class="col-lg-4 col md-12 col-sm-12">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col md-12 col-sm-12">
 
-                <div class="cont-form-add-con">
-                    <p class="p1">Corporate Address</p>
-                    <p class="p2">
-                        Aakasa Niwas , Plot No.13,
-                        Chandragupta Society,
-                        Behind Maharaja Complex,
-                        Kothrud, Pune-411038.
-                    </p>
-                    <p class="p3">
-                        +91 (879) 332 3704 <br>
-                        020-25289474/75
-                    </p>
-                    <p class="p4">
-                        info@colorcloudindia.com
-                    </p>
+                    <div class="cont-form-add-con">
+                        <p class="p1">Corporate Address</p>
+                        <p class="p2">
+                            Aakasa Niwas , Plot No.13,
+                            Chandragupta Society,
+                            Behind Maharaja Complex,
+                            Kothrud, Pune-411038.
+                        </p>
+                        <p class="p3">
+                            +91 (879) 332 3704 <br>
+                            020-25289474/75
+                        </p>
+                        <p class="p4">
+                            info@colorcloudindia.com
+                        </p>
+                    </div>
+
                 </div>
+                <!-- column 2 -->
+                <div class="col-lg-8 col md-12 col-sm-12">
+                    <div class="cont-form-input-con">
+                        <form action="../../forms/contactUsLogic.php" method="post" name="form"
+                            class="form-box php-email-form" data-aos="fade-up" data-aos-duration="2000">
 
-            </div>
-            <!-- column 2 -->
-            <div class="col-lg-8 col md-12 col-sm-12">
-                <div class="cont-form-input-con">
-                    <form action="../../forms/contactUsLogic.php" method="post" name="form"
-                        class="form-box php-email-form" data-aos="fade-up" data-aos-duration="2000">
-
-                        <div class="form-group">
-                            <!-- <label for="name">First Name</label><br> -->
-                            <input type="text" name="name" class="inp form-control" placeholder="First Name* " required>
-                        </div>
-
-                        <div class="form-group mt-3">
-                            <!-- <label for="name">Last Name</label><br> -->
-                            <input type="text" name="name" class="inp form-control" placeholder="Last Name* " required>
-                        </div>
-
-                        <div class="form-group mt-3">
-                            <!-- <label for="email">Email</label><br> -->
-                            <input type="email" name="email" class="inp form-control" placeholder="Email Address*"
-                                required>
-                        </div>
-                        <div class="row">
-                            <div class=" col-md-4 form-group mt-3">
-                                <!-- <label for="phone">Mobile</label><br> -->
-                                <input type="tel" name="phone" class="inp form-control" placeholder="Phone" required>
+                            <div class="form-group">
+                                <!-- <label for="name">First Name</label><br> -->
+                                <input type="text" name="name" class="inp form-control" placeholder="First Name* "
+                                    required>
                             </div>
-                            <div class=" col-md-8 form-group mt-3">
-                                <!-- <label for="phone" style>Mobile</label><br> -->
-                                <input type="tel" name="phone" class="inp form-control" required>
+
+                            <div class="form-group mt-3">
+                                <!-- <label for="name">Last Name</label><br> -->
+                                <input type="text" name="name" class="inp form-control" placeholder="Last Name* "
+                                    required>
                             </div>
-                        </div>
-                        <div class="form-group mt-3">
-                            <label for="message">Message</label><br>
-                            <textarea name="msg" class="msg-box form-control" placeholder="Enter Your Message Here..."
-                                required></textarea>
-                        </div>
-                        <div class="my-3 text-center">
+
+                            <div class="form-group mt-3">
+                                <!-- <label for="email">Email</label><br> -->
+                                <input type="email" name="email" class="inp form-control" placeholder="Email Address*"
+                                    required>
+                            </div>
                             <div class="row">
-                                <div class="col-md-6">
-                                    <input type="submit" name="submit" value="Send"
-                                        class="sub-btn btn send-btn btn-dark sub-btn">
+                                <div class=" col-md-4 form-group mt-3">
+                                    <!-- <label for="phone">Mobile</label><br> -->
+                                    <input type="tel" name="phone" class="inp form-control" placeholder="Phone"
+                                        required>
                                 </div>
-                                <div class="col-md-6">
-                                    <input type="submit" name="submit" value="Cancel"
-                                        class="sub-btn btn send-btn btn-dark canc-btn">
+                                <div class=" col-md-8 form-group mt-3">
+                                    <!-- <label for="phone" style>Mobile</label><br> -->
+                                    <input type="tel" name="phone" class="inp form-control" required>
                                 </div>
                             </div>
-                        </div>
-                    </form>
-                    <!-- Form end -->
+                            <div class="form-group mt-3">
+                                <label for="message">Message</label><br>
+                                <textarea name="msg" class="msg-box form-control"
+                                    placeholder="Enter Your Message Here..." required></textarea>
+                            </div>
+                            <div class="my-3 text-center">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input type="submit" name="submit" value="Send"
+                                            class="sub-btn btn send-btn btn-dark sub-btn">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input type="submit" name="submit" value="Cancel"
+                                            class="sub-btn btn send-btn btn-dark canc-btn">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- Form end -->
+                    </div>
+                    <!-- Form con end -->
                 </div>
-                <!-- Form con end -->
             </div>
-        </div>
 
+        </div>
     </section>
     <!-- section 2 contact us FORM END-->
+
+    <!-- section 3 GMAP -->
+    <div class="container mt-5 pt-5 pb-4" data-aos="zoom-in" data-aos-duration="2000">
+        <div style="background-color:#bad9c9; padding:10px;">
+            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15133.946811751604!2d73.798777!3d18.5068956!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcb69153ce925f6f0!2sCOLOUR%20CLOUD%20HEALTHCARE%20INDIA%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1659863182412!5m2!1sen!2sin"
+                width="100%" height="580" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <!-- section 3 GMAP END -->
 
     <!-- Footer -->
 
     <footer class="footer-section">
         <div class="footer-top">
-            <div class="">
+            <div class="container">
                 <div class="row d-flex justify-content-center">
 
                     <div class="col-lg-2 col-md-6 col-sm-6">
