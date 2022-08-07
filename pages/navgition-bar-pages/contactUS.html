@@ -11,9 +11,9 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Manual CSS -->
-    <link rel="stylesheet" href="../../assets/CSS/about us page/about-us.css">
-    <link rel="stylesheet" href="../../assets/CSS/common footer/footer-main.css">
     <link rel="stylesheet" href="../../assets/CSS/navigation-bar-common css/navigation-bar-gredient-common.css">
+    <link rel="stylesheet" href="../../assets/CSS/common footer/footer-main.css">
+    <link rel="stylesheet" href="../../assets/CSS/contact us css/contact-us.css">
 
     <!-- Font family -->
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
@@ -87,7 +87,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="../navgition-bar-pages/contactUS.html">Contact Us</a>
+                        <a class="nav-link" href="#">Contact Us</a>
                     </li>
 
                 </ul>
@@ -95,171 +95,102 @@
         </div>
     </nav>
 
-    <!-- section 1 -->
+    <!-- section 1 contact us -->
 
-    <section class="section-1-main-con">
-        <div class="row justify-content-center">
+    <section class="section-1-main-con-contact-us">
+        <div class="row">
             <div class="col-lg-12">
-                <h1>About Us</h1>
+                <div class="contact-us-sec-1-img-con">
+                    <div class="we-would-text-top">
+                        <p> We would love to hear from you </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <p class="">
-                    Focuson Healthcare, Automation and Digitalization; ‘Color Cloud Healthcare India Pvt Ltd’ is a group
-                    of Company stands for Innovation, Development and reliability. As one of the efficient and
-                    resource-saving technologies,‘Color-Cloud is apioneer in health care infrastructure Development for
-                    industry and is aleader in DICOM imaging solutions.
-                    <br><br>
-                    Together we are making medical 'technology and knowledge' more impactful and accessible to hospital
-                    and their patients. Continuous innovation
-                    in helathcare sector in major tool of Color Cloud of Company.
-                    <br><br>
-                    Now Color Cloud is serving more than 2000++ satisfied prestigious healthcare organisation eg.
-                    Corporate hospitals, Medical Collages, Diagnostics centers,<br>
-                    Government ' Hospital and Collages' with different products and solutions.
-                    <br><br>
-                    Color CLoud is now added diversified healthcare portfolios with products and solutions, we
-                    introduces DICOM paper film Imaging solutions, PACS/Integration (C-PACS), Radiology Information
-                    <br>
-                    System (RIS), Hospital Management Information system(HMIS), N-TO-N Ultrasound clinic solutions
-                    (Ultra-Pro) DICOM Viewer(Image Master), surgical instruments, MID Platform, Artificial Intelligence
-                    <br>
-                    (CT), Power and Energy solutions, IT Infrastructure Development (IT/ITS), Manage print Solutions
-                </p>
+    <!-- section 1 contact us END-->
 
-                <div class="abt-know-less-rect justify-content-center">
-                    Know Less
+    <!-- section 2 contact us FORM -->
+    <section>
+        <div class="row">
+            <div class="col-lg-4 col md-12 col-sm-12">
+
+                <div class="cont-form-add-con">
+                    <p class="p1">Corporate Address</p>
+                    <p class="p2">
+                        Aakasa Niwas , Plot No.13,
+                        Chandragupta Society,
+                        Behind Maharaja Complex,
+                        Kothrud, Pune-411038.
+                    </p>
+                    <p class="p3">
+                        +91 (879) 332 3704 <br>
+                        020-25289474/75
+                    </p>
+                    <p class="p4">
+                        info@colorcloudindia.com
+                    </p>
                 </div>
 
             </div>
+            <!-- column 2 -->
+            <div class="col-lg-8 col md-12 col-sm-12">
+                <div class="cont-form-input-con">
+                    <form action="../../forms/contactUsLogic.php" method="post" name="form"
+                        class="form-box php-email-form" data-aos="fade-up" data-aos-duration="2000">
 
-            <div class="abt-aqua-line"></div>
-        </div>
-    </section>
+                        <div class="form-group">
+                            <!-- <label for="name">First Name</label><br> -->
+                            <input type="text" name="name" class="inp form-control" placeholder="First Name* " required>
+                        </div>
 
-    <!-- section 1 END-->
+                        <div class="form-group mt-3">
+                            <!-- <label for="name">Last Name</label><br> -->
+                            <input type="text" name="name" class="inp form-control" placeholder="Last Name* " required>
+                        </div>
 
-    <!-- section 2 Abt LIST -->
-
-    <section class="section-2-main-con">
-
-        <div class="row">
-            <div class="col-lg-12">
-
-                <ul class="list-group justify-content-center">
-                    <!-- 1 -->
-                    <li class="list-group-item d-flex">
-                        <div class="heading-blue-box">
-                            <div class="heading-blue-text-rect">
-                                Our <br> Vision
+                        <div class="form-group mt-3">
+                            <!-- <label for="email">Email</label><br> -->
+                            <input type="email" name="email" class="inp form-control" placeholder="Email Address*"
+                                required>
+                        </div>
+                        <div class="row">
+                            <div class=" col-md-4 form-group mt-3">
+                                <!-- <label for="phone">Mobile</label><br> -->
+                                <input type="tel" name="phone" class="inp form-control" placeholder="Phone" required>
+                            </div>
+                            <div class=" col-md-8 form-group mt-3">
+                                <!-- <label for="phone" style>Mobile</label><br> -->
+                                <input type="tel" name="phone" class="inp form-control" required>
                             </div>
                         </div>
-                        <div class="list-right-content-con">
-                            <p class="p1">OUR VISION</p>
-                            <p class="p2">To create green environment with optimum ‘technology and solution’ with
-                                minimum cost.</p>
+                        <div class="form-group mt-3">
+                            <label for="message">Message</label><br>
+                            <textarea name="msg" class="msg-box form-control" placeholder="Enter Your Message Here..."
+                                required></textarea>
                         </div>
-                    </li>
-
-                    <!-- 2 -->
-                    <li class="list-group-item d-flex">
-
-                        <div class="heading-blue-box">
-                            <div class="heading-blue-text-rect">
-                                Our <br> Mission
+                        <div class="my-3 text-center">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="submit" name="submit" value="Send"
+                                        class="sub-btn btn send-btn btn-dark sub-btn">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="submit" name="submit" value="Cancel"
+                                        class="sub-btn btn send-btn btn-dark canc-btn">
+                                </div>
                             </div>
                         </div>
-                        <div class="list-right-content-con">
-                            <p class="p1">OUR MISSION</p>
-                            <p class="p2">Color-Cloud’s mission is to accelerate the technology into innovation that
-                                helps single entity of the world.</p>
-                        </div>
-
-                    </li>
-
-                    <!-- 3 -->
-                    <li class="list-group-item d-flex">
-                        <div class="heading-blue-box">
-                            <div class="heading-blue-text-rect">
-                                Our <br> Goals
-                            </div>
-                        </div>
-                        <div class="list-right-content-con">
-                            <p class="p1">OUR GOALS</p>
-                            <p class="p2">As an organization, should be first choice of goal the world as an
-                                inventor.</p>
-                        </div>
-
-                    </li>
-
-                    <!-- 4 -->
-                    <li class="list-group-item d-flex">
-                        <div class="heading-blue-box">
-                            <div class="heading-blue-text-rect">
-                                Our <br> Journey
-                            </div>
-                        </div>
-                        <div class="list-right-content-con">
-                            <p class="p1">OUR JOURNEY</p>
-                            <p class="p2">Color-Cloud’s mission is to accelerate the technology into innovation that
-                                helps
-                                single entity of the world.</p>
-                        </div>
-                    </li>
-
-                    <!-- 5 -->
-
-                    <li class="list-group-item d-flex">
-                        <div class="heading-blue-box">
-                            <div class="heading-blue-text-rect">
-                                Our <br> Services
-                            </div>
-                        </div>
-                        <div class="list-right-content-con">
-                            <p class="p1">OUR JOURNEY</p>
-                            <p class="p2">Color-Cloud’s mission is to accelerate the technology into innovation that
-                                helps
-                                single entity of the world.</p>
-                        </div>
-                    </li>
-
-                    <!-- 5 -->
-                    <li class="list-group-item d-flex">
-                        <div class="heading-blue-box">
-                            <div class="heading-blue-text-rect mt-3">
-                                Leadership
-                            </div>
-                        </div>
-                        <div class="list-right-content-con">
-                            <p class="p1">OUR JOURNEY</p>
-                            <p class="p2">Color-Cloud’s mission is to accelerate the technology into innovation that
-                                helps
-                                single entity of the world.</p>
-                        </div>
-                    </li>
-
-                    <!-- 6 -->
-                    <li class="list-group-item d-flex">
-                        <div class="heading-blue-box">
-                            <div class="heading-blue-text-rect mt-1" style="font-size: 30px;">
-                                Our <br> Quality Policy
-                            </div>
-                        </div>
-                        <div class="list-right-content-con">
-                            <p class="p1">OUR JOURNEY</p>
-                            <p class="p2">Color-Cloud’s mission is to accelerate the technology into innovation that
-                                helps
-                                single entity of the world.</p>
-                        </div>
-                    </li>
-
-                </ul>
+                    </form>
+                    <!-- Form end -->
+                </div>
+                <!-- Form con end -->
             </div>
         </div>
 
-        <div class="abt-aqua-line"></div>
     </section>
-
-    <!-- section 2 Abt LIST END-->
-
+    <!-- section 2 contact us FORM END-->
 
     <!-- Footer -->
 
