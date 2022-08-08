@@ -43,12 +43,18 @@
 
 .clients-img-con {
     margin: 16px 0 0 0;
-    width: 203px;
-    height: 203px;
+    min-width: 182px;
+    min-height: 182px;
+    width: 182px;
+    height: 182px;
     background-color: #01B18E;
     border-radius: 100%;
-    min-width: 203px;
-    min-height: 203px;
+}
+
+.clients-img-con img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
 .clients-test-content-con {
@@ -81,20 +87,40 @@
 }
 
 
-.carousel-control-prev-icon {
-    height: 35px;
-    width: 35px;
+.carousel-control-prev-icon1 {
+    height: 55px;
+    width: 55px;
     border-radius: 100%;
     background-color: #164D92;
     /* background-image: url("data:image/svg+xml,%3Csvg width='18' height='20' viewBox='0 0 18 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.31812 7.17478C0.318116 8.32948 0.318115 11.2162 2.31812 12.3709L13.4318 18.7874C15.4318 19.9421 17.9318 18.4987 17.9318 16.1893V3.3564C17.9318 1.047 15.4318 -0.396378 13.4318 0.758323L2.31812 7.17478Z' fill='white'/%3E%3C/svg%3E "); */
 }
 
-.carousel-control-next-icon {
-    height: 35px;
-    width: 35px;
+.carousel-control-prev-icon1 .inner-play-left{
+    margin: 1.1rem auto auto 1.2rem;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 15px solid #FFFFFF;
+    border-bottom: 10px solid transparent;
+    border-radius: 5px;
+}
+
+.carousel-control-next-icon1 {
+    height: 55px;
+    width: 55px;
     border-radius: 100%;
     background-color: #164D92;
     /* background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle r='30' transform='matrix(-1 0 0 1 30 30)' fill='%23164D92'/%3E%3C/svg%3E "); */
+}
+
+.carousel-control-next-icon1 .inner-play-right{
+    margin: 1.1rem 0 auto 1.3rem;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 15px solid #FFFFFF;
+    border-bottom: 10px solid transparent;
+    border-radius: 5px;
 }
 
 .carousel .carousel-control-prev,
@@ -102,7 +128,6 @@
     visibility: visible;
     opacity: 1;
 }
-
 
 
 .carousel-indicators [data-bs-target] {
@@ -117,7 +142,7 @@
     margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #fff;
+    background-color: #ffffff;
     background-clip: padding-box;
     border: 0;
     border-top: 10px solid transparent;
